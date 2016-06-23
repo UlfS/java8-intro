@@ -25,6 +25,7 @@ import java.util.List;
  * - LineItem
  *   - is immutable
  *   - fields cannot be null
+ *   - two LineItems are equal when the contained Products are equal
  * - Order
  *   - is immutable
  *   - can only be created using a builder
